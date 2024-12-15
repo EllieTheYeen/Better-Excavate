@@ -12,8 +12,8 @@ Tutorial: https://youtu.be/1wQoK_vY5UQ
 
 # Usage
 ```
-pastebin get 1MjTDTKr bexcavate
-bexcavate <Width> <Depth> <Length>
+wget https://github.com/EllieTheYeen/Better-Excavate/raw/refs/heads/master/bexcavate.lua bexi
+bexi <Width> <Depth> <Length>
 ```
 Your mining turtle must be placed on the top left of the area you want to excavate.
 
