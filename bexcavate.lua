@@ -71,8 +71,8 @@ local function reset()
         forward()
     end
     turtle.turnRight()
-    turtle.digDown()
-    turtle.down()
+    turtle.digUp()
+    turtle.up()
 end
  
 
