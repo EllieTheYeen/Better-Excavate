@@ -1,8 +1,8 @@
 local args = { ... }
 local turn_right = true
-local width = assert(tonumber(args[1]), "Usage: bexcavate <Width> <Depth> <Length>")
-local length = assert(tonumber(args[3]) - 1, "Usage: bexcavate <Width> <Depth> <Length>")
-local depth = assert(tonumber(args[2]), "Usage: bexcavate <Width> <Depth> <Length>")
+local width = assert(tonumber(args[1]), "Usage: bexi <Width> <Depth> <Length>")
+local length = assert(tonumber(args[3]) - 1, "Usage: bexi <Width> <Depth> <Length>")
+local depth = assert(tonumber(args[2]), "Usage: bexi <Width> <Depth> <Length>")
  
  
 local function rotate_right()
