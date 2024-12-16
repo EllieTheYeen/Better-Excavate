@@ -105,3 +105,5 @@ for y = 1, depth do
     print("Layer completed, " .. depth - y .." left to go.")
 end
 print("Excavation complete, enjoy :)")
+
+while turtle.down() do end
