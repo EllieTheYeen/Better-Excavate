@@ -83,6 +83,12 @@ print("Excavation initiated, please monitor occasionally.")
 for y = 1, depth do
     turtle.select(1)
     turtle.refuel()
+    for i = 1, 16 do
+        if turtle.getItemCount(i) > 0 then
+            turtle.select(i)
+            turtle.dropDown()
+        end
+    end
     turn_right = true
     for x = 1, width, 1 do
         for z = 1, length, 1 do
